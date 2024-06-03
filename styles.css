@@ -1,0 +1,29 @@
+header {
+    background-color: #1F2937;
+    height: auto;
+    width: auto;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.leftside1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.leftside2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+}
