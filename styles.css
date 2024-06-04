@@ -8,6 +8,10 @@ header {
     
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -60,6 +64,15 @@ content1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.titlecontent {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+
 }
 
 .imagetext {
