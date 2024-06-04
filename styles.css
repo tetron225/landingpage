@@ -89,6 +89,17 @@ content1 {
     align-items: center;
 }
 
+content2 {
+    font-size: 36px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .leftside1 {
     font-size: 48px;
     font-family: "Roboto", sans-serif;
