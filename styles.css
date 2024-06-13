@@ -10,6 +10,9 @@ header {
 
 body {
     font-family: "Roboto", sans-serif;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: black;
 }
 
 .logo {
@@ -64,6 +67,7 @@ content1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .titlecontent {
@@ -115,11 +119,24 @@ content2 {
     font-size: 36px;
     background-color: #E5E7EB;
     color: #1F2937;
-    font-style: italic;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.author {
+    font-style: none;
+    font-weight: bolder;
 }
 
 .leftside1 {
@@ -134,13 +151,60 @@ content2 {
     color: #E5E7EB;
 }
 
+content3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    displaY: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container3 {
+    background-color: #3882F6;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.message1 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.message2 {
+    color: #E5E7EB;
+}
+
 footer {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 button {
     background-color: #3882F6;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 .top-link {
