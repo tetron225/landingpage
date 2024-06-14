@@ -1,10 +1,10 @@
 header {
     background-color: #1F2937;
-    height: auto;
-    width: auto;
+    height: 600px;
     color: white;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 50px;
     
 }
 
@@ -35,8 +35,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .leftcontent {
@@ -45,6 +45,7 @@ body {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    padding-right: 30px;
 }
 
 .topsign {
@@ -56,10 +57,11 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     font-weight: bold;
+    border-style: none;
 }
 
 .rightcontent {
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 content1 {
@@ -97,7 +99,7 @@ content1 {
 
 .mountimg {
     height: 300px;
-    width: 700px;
+    width: 500px;
     
 }
 
@@ -132,11 +134,13 @@ content2 {
 
 .quote {
     font-style: italic;
+    font-weight: 0;
 }
 
 .author {
     font-style: none;
-    font-weight: bolder;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .leftside1 {
@@ -156,7 +160,7 @@ content3 {
     padding-right: 100px;
     padding-top: 75px;
     padding-bottom: 75px;
-    displaY: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
@@ -174,6 +178,7 @@ content3 {
     justify-content: space-between;
     align-items: center;
     gap: 100px;
+    border-radius: 10px;
 }
 
 .message1 {
